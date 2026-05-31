@@ -1,0 +1,52 @@
+{
+  "db_url": "postgresql://postgres:password2544@localhost:5432/heavy_tails_data",
+  "table": "moex_total_return_daily",
+  "outdir": "moex_tail_stage4_benchmark_20",
+  "markets": [
+    "shares"
+  ],
+  "start_date": "2015-01-01",
+  "end_date": null,
+  "windows": [
+    504,
+    756,
+    1008
+  ],
+  "step": 21,
+  "tail_side": "lower",
+  "filter_method": "raw",
+  "ewma_span": 60,
+  "core_universe": true,
+  "min_obs_core": 750,
+  "min_obs_broad": 500,
+  "coverage_core_shares": 0.95,
+  "coverage_core_bonds": 0.95,
+  "coverage_broad_shares": 0.9,
+  "coverage_broad_bonds": 0.9,
+  "zero_share_core_shares": 0.2,
+  "zero_share_core_bonds": 0.35,
+  "zero_share_broad_shares": 0.25,
+  "zero_share_broad_bonds": 0.5,
+  "zero_tol": 1e-12,
+  "min_tail_obs": 80,
+  "min_k": 10,
+  "k_min_frac": 0.02,
+  "k_max_frac": 0.15,
+  "adaptive_grid_step": 1,
+  "bootstrap_reps": 100,
+  "block_lengths": [
+    5,
+    10,
+    15,
+    21
+  ],
+  "bootstrap_reselect_k": false,
+  "ci_level": 0.9,
+  "strict_prob": 0.95,
+  "theta_run_length": 5,
+  "theta_declustering_cutoff": 0.8,
+  "max_securities_per_market": 20,
+  "random_seed": 42,
+  "n_jobs": 8,
+  "max_abs_return_for_audit": 0.75
+}

@@ -1,0 +1,42 @@
+{
+  "db_url": "postgresql://postgres:password2544@localhost:5432/heavy_tails_data",
+  "table": "moex_total_return_daily",
+  "schema": null,
+  "outdir": "moex_stage2_outputs",
+  "periods": [
+    "full_2015:2015-01-01:2026-05-15",
+    "baseline_2018:2018-01-01:2026-05-15",
+    "covid_2020_2021:2020-01-01:2021-12-31",
+    "shock_2022_2023:2022-01-01:2023-12-31",
+    "post_2024:2024-01-01:2026-05-15"
+  ],
+  "markets": [
+    "shares",
+    "bonds"
+  ],
+  "windows": [
+    252,
+    504
+  ],
+  "horizons": [
+    21,
+    63
+  ],
+  "tail_probs": [
+    0.025,
+    0.05
+  ],
+  "step": 21,
+  "min_coverage": 0.9,
+  "min_obs": 500,
+  "min_complete_ratio": 0.8,
+  "min_assets_window": 10,
+  "max_assets_shares": 80,
+  "max_assets_bonds": 120,
+  "max_zero_share_shares": 0.25,
+  "max_zero_share_bonds": 0.5,
+  "max_abs_return": 1.0,
+  "dq_grid_size": 1000,
+  "n_tail_groups": 3,
+  "min_assets_tail_group": 8
+}

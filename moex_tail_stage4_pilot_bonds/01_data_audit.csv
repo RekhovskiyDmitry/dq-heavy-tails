@@ -1,0 +1,9 @@
+item,value
+raw_rows,1203538
+canonical_board_rows,1201511
+n_securities_raw,2039
+n_securities_canonical,2039
+missing_log_return_raw,2027
+nonfinite_model_return,0
+multi_board_securities,0
+audit_abs_return_gt_threshold,680
