@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local environments and secrets
+.env
+.env.*
+
+# Jupyter scratch files
+.ipynb_checkpoints/
+Untitled*.ipynb
+
+# Large/raw local artifacts. Existing tracked files are not removed by this file;
+# this only prevents new artifacts of the same kind from being added accidentally.
+*.dump
+*.tar.gz
+*.zip
+*.parquet
+
+# Generated experiment directories
+moex_*_outputs/
+moex_stage*_*/
+moex_tail_stage*_*/
+export_for_chat/
+data/raw/
+data/intermediate/
+
+# OS/editor noise
+.DS_Store
+*.swp
