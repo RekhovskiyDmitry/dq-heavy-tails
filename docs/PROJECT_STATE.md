@@ -13,7 +13,7 @@ Produce a finished coursework paper, not just an audit:
 - formulas checked against primary sources;
 - empirical section based on reproducible Stage2/Stage4/Stage5/Stage6 results;
 - selected article-ready figures and tables;
-- final export target to be confirmed: DOCX/PDF/LaTeX.
+- final export target: DOCX.
 
 ## Current Working Branch
 
@@ -27,6 +27,11 @@ Local commit already made:
 
 No GitHub push has been made.
 
+Push policy:
+
+- No push during drafting.
+- Push only one final version after the DOCX is ready and Dima approves.
+
 ## Durable Work Setup
 
 Background work:
@@ -36,10 +41,19 @@ Background work:
 
 Rules:
 
-- Do not push to GitHub without explicit permission.
+- Do not push to GitHub during drafting.
+- Push only the final approved version when the DOCX is ready.
 - Do not rewrite Git history without explicit permission.
 - Do not delete large tracked artifacts until canonical reproducibility bundle is chosen.
 - Prefer small local commits after self-contained, verified work blocks.
+
+## User Requirements Confirmed
+
+- Time: no hard time limit; more than 24 hours available. Prioritize quality over speed.
+- Final format: DOCX.
+- Department/template requirements: none provided.
+- Title page details: not needed for now.
+- GitHub: no push until final; push only one final version after the DOCX is ready.
 
 ## Empirical Direction
 
@@ -49,16 +63,6 @@ Current defensible thesis:
 
 > For liquid MOEX equities, Diversification Quotient contains predictive information about future tail-event incidence beyond the classical Diversification Ratio. Conservative EVT estimation shows that ultra-heavy `alpha < 1` regimes are empirically rare in this sample, while DQ remains strongly connected with portfolio-level tail-heaviness measures. Therefore DQ should be interpreted as a tail-sensitive diversification diagnostic and predictive signal, and alpha-conditioned interaction models should be treated as robustness evidence because of collinearity.
 
-## Critical Open Questions For Dima
-
-Ask only if not already answered:
-
-1. Required final format: DOCX, PDF, LaTeX, or all of them?
-2. Required volume and formatting: pages, font, line spacing, ГОСТ/department template?
-3. Deadline.
-4. Title-page details: university, faculty, course, teacher, group, name spelling.
-5. Whether pushing to GitHub is allowed, and whether force-push/history rewrite is allowed later.
-
 ## Immediate Next Blocks
 
 1. Verify DQ formula and citations.
@@ -66,3 +70,4 @@ Ask only if not already answered:
 3. Convert Stage6 digest tables into final paper tables.
 4. Polish and select 3-4 figures for final paper.
 5. Rewrite introduction, methodology, results, discussion, conclusion.
+6. Build and maintain a DOCX export path.
