@@ -6,10 +6,13 @@ Stage 4: Robust tail-index estimation for MOEX DQ vs DR research.
 Purpose
 -------
 This script builds an article-ready tail-index layer for a MOEX panel of
-adjusted daily log returns. It is designed for the hypothesis:
+adjusted daily log returns. It is designed to test the working hypothesis:
 
     * DR should work well when tail-index alpha > 2;
-    * DR should be structurally weak relative to DQ when alpha < 1.
+    * DR may be structurally weak relative to DQ when alpha < 1.
+
+The second point is a hypothesis, not a conclusion. Current article results do
+not find a defensible strict alpha < 1 regime in liquid MOEX equities.
 
 The script estimates lower-tail alpha for each security on rolling windows,
 uses several EVT estimators, chooses an adaptive threshold k, quantifies

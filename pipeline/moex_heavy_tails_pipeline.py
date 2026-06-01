@@ -236,8 +236,9 @@ def empirical_dq_es(
     If diversification is weak, beta* is close to alpha, so DQ is near 1.
     If sample/subadditivity issues appear, DQ may exceed 1.
 
-    This is a practical empirical inversion. Before journal submission, validate it against
-    the exact notation used in Han-Lin-Zhao (2025) and replicate one example from the paper.
+    This is a practical grid inversion of the Han-Lin-Wang DQ definition.
+    Han-Lin-Zhao (2025) studies empirical DQ estimators; this routine is a
+    proxy implementation rather than a direct reproduction of their estimator.
     """
     x = returns_window.dropna(axis=0, how="any").to_numpy(dtype=float)
     if x.ndim != 2 or x.shape[0] < 60 or x.shape[1] != len(weights):

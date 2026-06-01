@@ -160,7 +160,9 @@ def dq_es_empirical(
         beta* = inf { beta : ES_beta(portfolio) <= sum_i w_i ES_alpha(asset_i) }
         DQ = beta* / alpha
 
-    Note: This must still be checked against the exact notation in Han-Lin-Zhao.
+    This follows the Han-Lin-Wang DQ definition as a practical grid inversion.
+    Han-Lin-Zhao (2025) studies empirical DQ estimators; this routine is a
+    proxy implementation rather than a direct reproduction of their estimator.
     """
     x = window.dropna(how="any").to_numpy(dtype=float)
     if x.ndim != 2 or x.shape[0] < 60 or x.shape[1] != len(weights):

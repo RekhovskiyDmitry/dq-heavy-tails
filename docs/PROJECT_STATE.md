@@ -24,6 +24,8 @@ Branch: `coursework-cleanup-first-pass`
 Local commit already made:
 
 - `380c8d4 chore: add first-pass coursework structure`
+- `07a5689 docs: start coursework manuscript draft`
+- `719220a docs: record final coursework requirements`
 
 No GitHub push has been made.
 
@@ -65,9 +67,14 @@ Current defensible thesis:
 
 ## Immediate Next Blocks
 
-1. Verify DQ formula and citations.
-2. Build `manuscript/coursework.md` into a real running draft.
-3. Convert Stage6 digest tables into final paper tables.
-4. Polish and select 3-4 figures for final paper.
-5. Rewrite introduction, methodology, results, discussion, conclusion.
-6. Build and maintain a DOCX export path.
+1. Build `manuscript/coursework.md` into a full running draft.
+2. Convert Stage6 digest tables into final paper tables.
+3. Polish and select 3-4 figures for final paper.
+4. Rewrite introduction, methodology, results, discussion, conclusion.
+5. Build and maintain a DOCX export path.
+
+## Completed Work Blocks
+
+- DQ/DR/EVT literature and formula verification is recorded in `docs/LITERATURE_AND_FORMULAS_2026-06-01.md`.
+- The manuscript now uses Han-Lin-Wang as the primary DQ source and treats Han-Lin-Zhao only as an empirical-estimator reference.
+- The manuscript distinguishes classical volatility DR from the ES concentration ratio implemented in the empirical pipeline.
