@@ -26,6 +26,7 @@ moex_*_outputs/
 moex_stage*_*/
 moex_tail_stage*_*/
 export_for_chat/
+build/
 data/raw/
 data/intermediate/
 

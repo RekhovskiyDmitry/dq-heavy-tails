@@ -41,7 +41,8 @@ Push policy:
 Background work:
 
 - Literature/formula verification subtask started as `dq_coursework_literature`.
-- Recurring continuation cron created: `dq-coursework-continuation`, every 2 hours.
+- Recurring continuation cron created: `dq-coursework-continuation`, every 60 minutes.
+- Work mode is strategy-first and sequential; see `docs/COURSEWORK_STRATEGY.md`.
 
 DOCX tooling:
 
@@ -56,6 +57,7 @@ Rules:
 - Do not delete large tracked artifacts until canonical reproducibility bundle is chosen.
 - Prefer small local commits after self-contained, verified work blocks.
 - If a missing module, package or ordinary project dependency blocks progress, install it without asking Dima first and continue. Ask only for unavailable sudo passwords, sensitive system configuration, paid/external access, or destructive/risky changes.
+- At least half of each long work block should be spent on strategy, audit, sequencing and consistency checks before editing. Each run should focus on one coherent domain block.
 
 ## User Requirements Confirmed
 
