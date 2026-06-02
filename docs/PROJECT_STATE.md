@@ -77,10 +77,9 @@ Current defensible thesis:
 
 ## Immediate Next Blocks
 
-1. Polish references, table/figure layout and reproducibility appendix.
-2. Run final placeholder/spell/claim audit on the full manuscript.
-3. Decide whether to include title page later; current requirement says no title page for now.
-4. Keep final GitHub push blocked until DOCX is complete and Dima approves.
+1. Review the final DOCX candidate with Dima: `build/coursework-final.docx`.
+2. Decide whether to include title page later; current requirement says no title page for now.
+3. Keep final GitHub push blocked until Dima explicitly approves the completed DOCX.
 
 ## Completed Work Blocks
 
@@ -92,3 +91,6 @@ Current defensible thesis:
 - The discussion and conclusion now explain the revised `alpha<1` hypothesis, DQ/concentration-ratio interpretation, collinearity limitations and practical meaning.
 - Pandoc DOCX smoke/progress build succeeds; latest progress DOCX is in `build/`.
 - Reproducible DOCX build script added and verified: `scripts/build_coursework_docx.sh`. The current final candidate path is `build/coursework-final.docx`.
+- Final DOCX/export audit script added: `scripts/audit_coursework_final.sh`.
+- Final audit passed for `build/coursework-final.docx`; audit note added: `docs/FINAL_AUDIT_2026-06-02.md`.
+- Table and figure captions are explicit in `manuscript/coursework.md` for DOCX readability.

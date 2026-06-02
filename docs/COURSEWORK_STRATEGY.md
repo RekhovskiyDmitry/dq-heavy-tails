@@ -199,13 +199,15 @@ Status:
 
 - reproducible DOCX build script added: `scripts/build_coursework_docx.sh`;
 - current canonical output path: `build/coursework-final.docx`.
+- final audit script added: `scripts/audit_coursework_final.sh`;
+- final audit passed and note added: `docs/FINAL_AUDIT_2026-06-02.md`;
+- table and figure captions are explicit in the manuscript.
 
 Remaining focus:
 
-- reference formatting;
-- figure/table layout;
-- spell and placeholder audit;
-- final DOCX export.
+- Dima review of `build/coursework-final.docx`;
+- optional title page only if Dima later asks for it;
+- final GitHub push only after explicit approval.
 
 Output:
 
