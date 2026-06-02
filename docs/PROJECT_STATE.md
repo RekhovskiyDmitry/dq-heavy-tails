@@ -47,7 +47,7 @@ Background work:
 DOCX tooling:
 
 - Pandoc 3.9.0.2 is installed locally for the OpenClaw user.
-- `pandoc` resolves through `/home/openclaw/.npm-global/bin/pandoc`.
+- `pandoc` resolves through `/home/openclaw/.local/bin/pandoc`.
 
 Rules:
 
@@ -77,11 +77,10 @@ Current defensible thesis:
 
 ## Immediate Next Blocks
 
-1. Add a reproducible DOCX build target/script instead of ad hoc pandoc commands.
-2. Polish references, table/figure layout and reproducibility appendix.
-3. Run final placeholder/spell/claim audit on the full manuscript.
-4. Decide whether to include title page later; current requirement says no title page for now.
-5. Keep final GitHub push blocked until DOCX is complete and Dima approves.
+1. Polish references, table/figure layout and reproducibility appendix.
+2. Run final placeholder/spell/claim audit on the full manuscript.
+3. Decide whether to include title page later; current requirement says no title page for now.
+4. Keep final GitHub push blocked until DOCX is complete and Dima approves.
 
 ## Completed Work Blocks
 
@@ -92,3 +91,4 @@ Current defensible thesis:
 - The manuscript methodology/results sections now include regression design, selected tables and selected figures.
 - The discussion and conclusion now explain the revised `alpha<1` hypothesis, DQ/concentration-ratio interpretation, collinearity limitations and practical meaning.
 - Pandoc DOCX smoke/progress build succeeds; latest progress DOCX is in `build/`.
+- Reproducible DOCX build script added and verified: `scripts/build_coursework_docx.sh`. The current final candidate path is `build/coursework-final.docx`.

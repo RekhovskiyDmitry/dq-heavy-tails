@@ -190,7 +190,18 @@ Goal: make the final artifact.
 
 Focus:
 
-- reproducible build command/script;
+- reference formatting;
+- figure/table layout;
+- spell and placeholder audit;
+- final DOCX export.
+
+Status:
+
+- reproducible DOCX build script added: `scripts/build_coursework_docx.sh`;
+- current canonical output path: `build/coursework-final.docx`.
+
+Remaining focus:
+
 - reference formatting;
 - figure/table layout;
 - spell and placeholder audit;

@@ -380,4 +380,10 @@ Stage2-регрессии показывают, что DQ имеет устой�
 
 ## Приложение A. Воспроизводимость
 
-Для воспроизведения расчётов используется окружение Python с зависимостями из `requirements.txt`. Основные эмпирические артефакты собираются из Stage4 tail-index estimates, Stage2 rolling DQ/DR metrics, Stage5 alpha-interaction results и Stage6 digest. Итоговые таблицы для рукописи подготовлены скриптом `pipeline/prepare_coursework_tables.py`, а DOCX-версия собирается из `manuscript/coursework.md` командой `pandoc`. Детальная карта входных директорий Stage2/Stage4/Stage5 зафиксирована в `article/stage6_digest/research_stage6_article_digest_memo.md`.
+Для воспроизведения расчётов используется окружение Python с зависимостями из `requirements.txt`. Основные эмпирические артефакты собираются из Stage4 tail-index estimates, Stage2 rolling DQ/DR metrics, Stage5 alpha-interaction results и Stage6 digest. Итоговые таблицы для рукописи подготовлены скриптом `pipeline/prepare_coursework_tables.py`. DOCX-версия курсовой собирается из `manuscript/coursework.md` воспроизводимой командой:
+
+```bash
+scripts/build_coursework_docx.sh build/coursework-final.docx
+```
+
+Скрипт задаёт корень проекта как `resource-path`, поэтому относительные ссылки на рисунки из `article/figures/` корректно разрешаются при сборке из любого текущего каталога внутри репозитория. Детальная карта входных директорий Stage2/Stage4/Stage5 зафиксирована в `article/stage6_digest/research_stage6_article_digest_memo.md`.
