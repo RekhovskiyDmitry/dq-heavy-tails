@@ -83,6 +83,14 @@ else
   status=1
 fi
 
+archive_data_script="${ROOT_DIR}/scripts/audit_coursework_archive_data.py"
+if command -v python3 >/dev/null; then
+  python3 "${archive_data_script}"
+else
+  printf 'ERROR: python3 is required for archive data audit\n' >&2
+  status=1
+fi
+
 missing_images=0
 while IFS= read -r image_path; do
   if [[ ! -f "${ROOT_DIR}/${image_path}" ]]; then

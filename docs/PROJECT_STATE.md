@@ -84,6 +84,9 @@ Current defensible thesis:
 Latest final audit pass: 2026-06-02 17:14 UTC. The canonical candidate remains
 `build/coursework-final.docx`.
 
+Latest archive-data audit pass: 2026-06-02 17:27 UTC. Canonical empirical
+archive: `moex_article_core_assetwise_20260524_1008.zip`.
+
 ## Completed Work Blocks
 
 - DQ/DR/EVT literature and formula verification is recorded in `docs/LITERATURE_AND_FORMULAS_2026-06-01.md`.
@@ -112,3 +115,9 @@ Latest final audit pass: 2026-06-02 17:14 UTC. The canonical candidate remains
 - The 2026-06-02 17:14 UTC continuation block repeated the final audit/export
   gate, rebuilt `build/coursework-final.docx`, and again found no manuscript,
   table, figure, formula or traceability changes needed before Dima's review.
+- The 2026-06-02 17:27 UTC user-requested archive audit reread
+  `moex_article_core_assetwise_20260524_1008.zip` directly and verified that
+  raw archived Stage4/Stage2/Stage5 outputs match the assetwise Stage6 digest
+  used by the coursework. Standalone `moex_stage6_article_digest.zip` differs
+  for Stage5/correlation artifacts and is not the canonical source for the
+  final coursework.

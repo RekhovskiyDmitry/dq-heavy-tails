@@ -36,6 +36,7 @@ Last observed audit pass: 2026-06-02 17:14 UTC.
 - Word math objects in DOCX XML: 118;
 - traceability table rows checked against article artifacts: 16;
 - traceability prose values checked against article artifacts: 10;
+- archive-data audit from canonical ZIP: passed;
 - repeated adjacent words: 0;
 - punctuation artifacts from the audit pattern: 0;
 - raw TeX markers checked in DOCX XML: none for `\operatorname`,
@@ -72,6 +73,22 @@ Additional 17:14 UTC verification:
   Stage6/article artifacts;
 - no manuscript, table, figure, formula or export-formatting changes were
   required.
+
+Additional 17:27 UTC archive-data verification:
+
+- added `scripts/audit_coursework_archive_data.py`;
+- the audit reads `moex_article_core_assetwise_20260524_1008.zip` directly,
+  without using generated local `article/tables/*.csv` as the source of truth;
+- it recomputes/checks Stage4 tail-alpha summaries, latest tail membership,
+  Stage2 horse-race summaries, Stage2 `future_tail_event` main-table rows,
+  Stage5 interaction summaries and Stage5 key correlations from archived raw
+  outputs;
+- checks passed against the assetwise Stage6 digest: 3 tail summary rows, 3
+  latest membership rows, 40 horse-race rows, 60 Stage5 interaction rows, 192
+  Stage2 main-table rows and 192 key-correlation rows;
+- standalone `moex_stage6_article_digest.zip` differs from the assetwise bundle
+  for Stage5 interaction/correlation artifacts, so the canonical empirical
+  archive for this coursework remains `moex_article_core_assetwise_20260524_1008.zip`.
 
 ## Scientific Claim Check
 
