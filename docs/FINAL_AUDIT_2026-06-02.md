@@ -26,7 +26,7 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 13:15 UTC.
+Last observed audit pass: 2026-06-02 14:14 UTC.
 
 - word count: 4577;
 - references: 17;
@@ -38,6 +38,17 @@ Last observed audit pass: 2026-06-02 13:15 UTC.
 - punctuation artifacts from the audit pattern: 0;
 - raw TeX markers checked in DOCX XML: none for `\operatorname`,
   `\frac`, `\alpha`, `\sum`, `\mathrm`.
+
+Additional 14:14 UTC verification:
+
+- manuscript table values match the Stage6/article table artifacts for
+  tail-alpha distribution, horse-race regressions, selected representative
+  regression and key correlations;
+- `build/coursework-final.docx` rebuilt successfully and remains the canonical
+  DOCX candidate;
+- the DOCX is generated under ignored `build/`, so the file is available
+  locally but is not part of the current Git history unless explicitly added
+  during the final approved delivery step.
 
 ## Scientific Claim Check
 
