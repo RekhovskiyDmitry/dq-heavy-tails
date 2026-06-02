@@ -26,7 +26,7 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 18:15 UTC.
+Last observed audit pass: 2026-06-02 19:13 UTC.
 
 - word count: 4577;
 - references: 17;
@@ -91,6 +91,19 @@ Additional 17:27 UTC archive-data verification:
   archive for this coursework remains `moex_article_core_assetwise_20260524_1008.zip`.
 
 Additional 18:15 UTC verification:
+
+- `scripts/audit_coursework_final.sh build/coursework-final.docx` passed again;
+- the final DOCX was rebuilt successfully and remains the canonical candidate;
+- the audit still reports 4577 words, 17 references, 3 table captions, 3 figure
+  captions, 3 embedded media files and 118 Word math objects;
+- traceability still checks 16 table rows and 10 prose values against the
+  Stage6/article artifacts;
+- the archive-data gate reread `moex_article_core_assetwise_20260524_1008.zip`
+  and passed;
+- no manuscript, table, figure, formula, traceability or export-formatting
+  changes were required.
+
+Additional 19:13 UTC verification:
 
 - `scripts/audit_coursework_final.sh build/coursework-final.docx` passed again;
 - the final DOCX was rebuilt successfully and remains the canonical candidate;
