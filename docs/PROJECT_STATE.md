@@ -81,6 +81,9 @@ Current defensible thesis:
 2. Decide whether to include title page later; current requirement says no title page for now.
 3. Keep final GitHub push blocked until Dima explicitly approves the completed DOCX.
 
+Latest final audit pass: 2026-06-02 13:15 UTC. The canonical candidate remains
+`build/coursework-final.docx`.
+
 ## Completed Work Blocks
 
 - DQ/DR/EVT literature and formula verification is recorded in `docs/LITERATURE_AND_FORMULAS_2026-06-01.md`.
@@ -94,3 +97,5 @@ Current defensible thesis:
 - Final DOCX/export audit script added: `scripts/audit_coursework_final.sh`.
 - Final audit passed for `build/coursework-final.docx`; audit note added: `docs/FINAL_AUDIT_2026-06-02.md`.
 - Table and figure captions are explicit in `manuscript/coursework.md` for DOCX readability.
+- The final audit was rerun in the 2026-06-02 13:15 UTC continuation block and
+  passed without manuscript or export-formatting changes.
