@@ -27,6 +27,7 @@ Local commit already made:
 - `07a5689 docs: start coursework manuscript draft`
 - `719220a docs: record final coursework requirements`
 - `a87c4b5 docs: verify DQ literature and notation`
+- `e9ca6dc docs: expand coursework methodology and tables`
 
 No GitHub push has been made.
 
@@ -54,6 +55,7 @@ Rules:
 - Do not rewrite Git history without explicit permission.
 - Do not delete large tracked artifacts until canonical reproducibility bundle is chosen.
 - Prefer small local commits after self-contained, verified work blocks.
+- If a missing module, package or ordinary project dependency blocks progress, install it without asking Dima first and continue. Ask only for unavailable sudo passwords, sensitive system configuration, paid/external access, or destructive/risky changes.
 
 ## User Requirements Confirmed
 
