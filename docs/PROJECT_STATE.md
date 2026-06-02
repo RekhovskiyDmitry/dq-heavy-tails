@@ -77,9 +77,9 @@ Current defensible thesis:
 
 ## Immediate Next Blocks
 
-1. Continue expanding `manuscript/coursework.md` from running draft to full coursework length.
-2. Add a reproducible DOCX build target/script instead of ad hoc pandoc commands.
-3. Polish discussion, limitations, conclusion and references.
+1. Add a reproducible DOCX build target/script instead of ad hoc pandoc commands.
+2. Polish references, table/figure layout and reproducibility appendix.
+3. Run final placeholder/spell/claim audit on the full manuscript.
 4. Decide whether to include title page later; current requirement says no title page for now.
 5. Keep final GitHub push blocked until DOCX is complete and Dima approves.
 
@@ -90,4 +90,5 @@ Current defensible thesis:
 - The manuscript distinguishes classical volatility DR from the ES concentration ratio implemented in the empirical pipeline.
 - Stage6 digest tables are converted into compact paper tables in `article/tables/` by `pipeline/prepare_coursework_tables.py`.
 - The manuscript methodology/results sections now include regression design, selected tables and selected figures.
+- The discussion and conclusion now explain the revised `alpha<1` hypothesis, DQ/concentration-ratio interpretation, collinearity limitations and practical meaning.
 - Pandoc DOCX smoke/progress build succeeds; latest progress DOCX is in `build/`.

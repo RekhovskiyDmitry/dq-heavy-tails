@@ -169,6 +169,8 @@ Output:
 
 Goal: finish the argument.
 
+Status: completed in the 2026-06-02 07:14 UTC continuation block.
+
 Focus:
 
 - revised hypothesis;
@@ -180,6 +182,7 @@ Focus:
 Output:
 
 - polished sections 5 and 6.
+- DOCX checkpoint `build/coursework-progress-2026-06-02-0714.docx`.
 
 ### Block 6: DOCX And Final Audit
 
