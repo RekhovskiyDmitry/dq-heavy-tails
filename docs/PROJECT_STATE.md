@@ -1,6 +1,6 @@
 # DQ Coursework Project State
 
-Last updated: 2026-06-01
+Last updated: 2026-06-02
 
 Owner: Dima
 
@@ -26,6 +26,7 @@ Local commit already made:
 - `380c8d4 chore: add first-pass coursework structure`
 - `07a5689 docs: start coursework manuscript draft`
 - `719220a docs: record final coursework requirements`
+- `a87c4b5 docs: verify DQ literature and notation`
 
 No GitHub push has been made.
 
@@ -39,7 +40,12 @@ Push policy:
 Background work:
 
 - Literature/formula verification subtask started as `dq_coursework_literature`.
-- Recurring continuation cron created: `dq-coursework-continuation`, every 4 hours.
+- Recurring continuation cron created: `dq-coursework-continuation`, every 2 hours.
+
+DOCX tooling:
+
+- Pandoc 3.9.0.2 is installed locally for the OpenClaw user.
+- `pandoc` resolves through `/home/openclaw/.npm-global/bin/pandoc`.
 
 Rules:
 
@@ -67,14 +73,17 @@ Current defensible thesis:
 
 ## Immediate Next Blocks
 
-1. Build `manuscript/coursework.md` into a full running draft.
-2. Convert Stage6 digest tables into final paper tables.
-3. Polish and select 3-4 figures for final paper.
-4. Rewrite introduction, methodology, results, discussion, conclusion.
-5. Build and maintain a DOCX export path.
+1. Continue expanding `manuscript/coursework.md` from running draft to full coursework length.
+2. Add a reproducible DOCX build target/script instead of ad hoc pandoc commands.
+3. Polish discussion, limitations, conclusion and references.
+4. Decide whether to include title page later; current requirement says no title page for now.
+5. Keep final GitHub push blocked until DOCX is complete and Dima approves.
 
 ## Completed Work Blocks
 
 - DQ/DR/EVT literature and formula verification is recorded in `docs/LITERATURE_AND_FORMULAS_2026-06-01.md`.
 - The manuscript now uses Han-Lin-Wang as the primary DQ source and treats Han-Lin-Zhao only as an empirical-estimator reference.
 - The manuscript distinguishes classical volatility DR from the ES concentration ratio implemented in the empirical pipeline.
+- Stage6 digest tables are converted into compact paper tables in `article/tables/` by `pipeline/prepare_coursework_tables.py`.
+- The manuscript methodology/results sections now include regression design, selected tables and selected figures.
+- Pandoc DOCX smoke/progress build succeeds; latest progress DOCX is in `build/`.

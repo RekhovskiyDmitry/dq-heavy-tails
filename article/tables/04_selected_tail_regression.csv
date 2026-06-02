@@ -1,0 +1,9 @@
+Спецификация,Переменная,Коэф. (t_HAC),p-value,R2,N
+dq_dr,dq_es,1.079 (3.89),<0.001,0.144,76
+dq_dr,dr_es_concentration,-2.392 (-5.68),<0.001,0.144,76
+dq_dr_current_es,dq_es,0.924 (1.41),0.159,0.145,76
+dq_dr_current_es,dr_es_concentration,-2.757 (-2.43),0.015,0.145,76
+dq_only,dq_es,0.501 (1.68),0.093,0.037,76
+dr_only,dr_es_concentration,-0.985 (-1.51),0.132,0.027,76
+full,dq_es,1.133 (0.47),0.636,0.237,76
+full,dr_es_concentration,-4.312 (-4.05),<0.001,0.237,76

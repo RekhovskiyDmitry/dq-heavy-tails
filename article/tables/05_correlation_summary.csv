@@ -1,0 +1,6 @@
+Пара переменных,N спецификаций,Медиана corr,Мин. corr,Макс. corr
+DQ и обратная alpha_tail,24,0.923,0.585,0.982
+DQ и медианная alpha_tail,24,-0.876,-0.977,-0.622
+DQ и ES concentration ratio,24,0.688,0.213,0.971
+DQ и future tail event,24,0.164,-0.028,0.448
+Concentration ratio и future tail event,24,-0.051,-0.354,0.154
