@@ -26,7 +26,7 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 16:14 UTC.
+Last observed audit pass: 2026-06-02 17:14 UTC.
 
 - word count: 4577;
 - references: 17;
@@ -61,6 +61,17 @@ Additional 16:14 UTC verification:
 - the audit still reports 4577 words, 17 references, 3 table captions, 3 figure
   captions, 3 embedded media files and 118 Word math objects;
 - no manuscript or export-formatting changes were required.
+
+Additional 17:14 UTC verification:
+
+- `scripts/audit_coursework_final.sh build/coursework-final.docx` passed again;
+- the final DOCX was rebuilt successfully;
+- the audit still reports 4577 words, 17 references, 3 table captions, 3 figure
+  captions, 3 embedded media files and 118 Word math objects;
+- traceability still checks 16 table rows and 10 prose values against the
+  Stage6/article artifacts;
+- no manuscript, table, figure, formula or export-formatting changes were
+  required.
 
 ## Scientific Claim Check
 
