@@ -26,7 +26,7 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 15:17 UTC.
+Last observed audit pass: 2026-06-02 16:14 UTC.
 
 - word count: 4577;
 - references: 17;
@@ -53,6 +53,14 @@ Additional 15:17 UTC verification:
 - the DOCX is generated under ignored `build/`, so the file is available
   locally but is not part of the current Git history unless explicitly added
   during the final approved delivery step.
+
+Additional 16:14 UTC verification:
+
+- `scripts/audit_coursework_final.sh build/coursework-final.docx` passed again;
+- the final DOCX was rebuilt successfully;
+- the audit still reports 4577 words, 17 references, 3 table captions, 3 figure
+  captions, 3 embedded media files and 118 Word math objects;
+- no manuscript or export-formatting changes were required.
 
 ## Scientific Claim Check
 
