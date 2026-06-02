@@ -75,6 +75,14 @@ else
   rm -f "${punctuation_audit}"
 fi
 
+traceability_script="${ROOT_DIR}/scripts/audit_coursework_traceability.py"
+if command -v python3 >/dev/null; then
+  python3 "${traceability_script}"
+else
+  printf 'ERROR: python3 is required for traceability audit\n' >&2
+  status=1
+fi
+
 missing_images=0
 while IFS= read -r image_path; do
   if [[ ! -f "${ROOT_DIR}/${image_path}" ]]; then

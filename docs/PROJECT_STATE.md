@@ -81,7 +81,7 @@ Current defensible thesis:
 2. Decide whether to include title page later; current requirement says no title page for now.
 3. Keep final GitHub push blocked until Dima explicitly approves the completed DOCX.
 
-Latest final audit pass: 2026-06-02 14:14 UTC. The canonical candidate remains
+Latest final audit pass: 2026-06-02 15:17 UTC. The canonical candidate remains
 `build/coursework-final.docx`.
 
 ## Completed Work Blocks
@@ -103,3 +103,6 @@ Latest final audit pass: 2026-06-02 14:14 UTC. The canonical candidate remains
   2026-06-02 14:14 UTC continuation block. The DOCX rebuilt successfully, table
   values still match the article artifacts, and no manuscript changes were
   needed.
+- The 2026-06-02 15:17 UTC continuation block made Stage6 traceability a
+  reproducible audit gate via `scripts/audit_coursework_traceability.py` and
+  reran the final DOCX audit successfully.

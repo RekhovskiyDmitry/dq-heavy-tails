@@ -200,6 +200,8 @@ Status:
 - reproducible DOCX build script added: `scripts/build_coursework_docx.sh`;
 - current canonical output path: `build/coursework-final.docx`.
 - final audit script added: `scripts/audit_coursework_final.sh`;
+- Stage6/article value traceability is now checked by
+  `scripts/audit_coursework_traceability.py` from the final audit script;
 - final audit passed and note added: `docs/FINAL_AUDIT_2026-06-02.md`;
 - table and figure captions are explicit in the manuscript.
 

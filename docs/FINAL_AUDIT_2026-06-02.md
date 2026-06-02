@@ -26,7 +26,7 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 14:14 UTC.
+Last observed audit pass: 2026-06-02 15:17 UTC.
 
 - word count: 4577;
 - references: 17;
@@ -34,16 +34,20 @@ Last observed audit pass: 2026-06-02 14:14 UTC.
 - explicit figure captions: 3;
 - embedded DOCX media files: 3;
 - Word math objects in DOCX XML: 118;
+- traceability table rows checked against article artifacts: 16;
+- traceability prose values checked against article artifacts: 10;
 - repeated adjacent words: 0;
 - punctuation artifacts from the audit pattern: 0;
 - raw TeX markers checked in DOCX XML: none for `\operatorname`,
   `\frac`, `\alpha`, `\sum`, `\mathrm`.
 
-Additional 14:14 UTC verification:
+Additional 15:17 UTC verification:
 
-- manuscript table values match the Stage6/article table artifacts for
-  tail-alpha distribution, horse-race regressions, selected representative
-  regression and key correlations;
+- `scripts/audit_coursework_final.sh` now runs
+  `scripts/audit_coursework_traceability.py`, which checks manuscript table
+  rows and selected prose values against the Stage6/article table artifacts
+  for tail-alpha distribution, latest tail classification, horse-race
+  regressions, selected representative regression and key correlations;
 - `build/coursework-final.docx` rebuilt successfully and remains the canonical
   DOCX candidate;
 - the DOCX is generated under ignored `build/`, so the file is available
