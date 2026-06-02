@@ -26,9 +26,9 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass:
+Last observed audit pass: 2026-06-02 12:13 UTC.
 
-- word count: 4578;
+- word count: 4577;
 - references: 17;
 - explicit table captions: 3;
 - explicit figure captions: 3;
