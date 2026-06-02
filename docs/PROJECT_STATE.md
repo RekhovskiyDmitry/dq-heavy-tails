@@ -81,7 +81,7 @@ Current defensible thesis:
 2. Decide whether to include title page later; current requirement says no title page for now.
 3. Keep final GitHub push blocked until Dima explicitly approves the completed DOCX.
 
-Latest final audit pass: 2026-06-02 20:13 UTC. The canonical candidate remains
+Latest final audit pass: 2026-06-02 22:42 UTC. The canonical candidate remains
 `build/coursework-final.docx`.
 
 Latest archive-data audit pass: 2026-06-02 17:27 UTC. Canonical empirical
@@ -133,3 +133,9 @@ archive: `moex_article_core_assetwise_20260524_1008.zip`.
   audit/export gate, rebuilt `build/coursework-final.docx`, and confirmed that
   the final candidate still passes manuscript, DOCX, traceability and
   archive-data checks without text or formatting changes.
+- The 2026-06-02 22:42 UTC human review/style pass revised only prose in
+  `manuscript/coursework.md`: it reduced generic/smooth wording, made several
+  claims more cautious, and kept all empirical numbers, tables, figures and
+  references unchanged. The full final audit/export gate passed after the DOCX
+  rebuild with 4549 words, 17 references, 3 tables, 3 figures, 119 Word math
+  objects, traceability PASS and archive-data PASS.

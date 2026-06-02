@@ -26,14 +26,14 @@ requirements:
 
 ## Observed Audit Metrics
 
-Last observed audit pass: 2026-06-02 20:13 UTC.
+Last observed audit pass: 2026-06-02 22:42 UTC.
 
-- word count: 4577;
+- word count: 4549;
 - references: 17;
 - explicit table captions: 3;
 - explicit figure captions: 3;
 - embedded DOCX media files: 3;
-- Word math objects in DOCX XML: 118;
+- Word math objects in DOCX XML: 119;
 - traceability table rows checked against article artifacts: 16;
 - traceability prose values checked against article artifacts: 10;
 - archive-data audit from canonical ZIP: passed;
@@ -128,6 +128,21 @@ Additional 20:13 UTC verification:
   and passed;
 - no manuscript, table, figure, formula, traceability or export-formatting
   changes were required.
+
+Additional 22:42 UTC human review/style verification:
+
+- `manuscript/coursework.md` was revised only at the prose level to reduce
+  generic/smooth phrasing and make several empirical claims more cautious;
+- no table values, figures, formulas, citations or empirical conclusions were
+  changed;
+- `scripts/audit_coursework_final.sh build/coursework-final.docx` passed after
+  the DOCX rebuild;
+- the audit reports 4549 words, 17 references, 3 table captions, 3 figure
+  captions, 3 embedded media files and 119 Word math objects;
+- traceability still checks 16 table rows and 10 prose values against the
+  Stage6/article artifacts;
+- the archive-data gate reread `moex_article_core_assetwise_20260524_1008.zip`
+  and passed.
 
 ## Scientific Claim Check
 
